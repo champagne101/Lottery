@@ -377,8 +377,8 @@ contract Lottery is Ownable, Initializable, Testable {
     /**
      * @param   _prizeDistribution An array defining the distribution of the 
      *          prize pool. I.e if a lotto has 5 numbers, the distribution could
-     *          be [5, 10, 15, 20, 30] = 100%. This means if you get one number
-     *          right you get 5% of the pool, 2 matching would be 10% and so on.
+     *          be [2.5, 2.5, 10, 20, 40] = 100%. This means if you get one number
+     *          right you get 2.5% of the pool, 2 matching would be 2.5% and so on.
      * @param   _prizePoolInBound The amount of Bound available to win in this 
      *          lottery.
      * @param   _startingTimestamp The block timestamp for the beginning of the 
