@@ -71,7 +71,7 @@ contract LotteryNFT is ERC1155, Ownable, Testable {
      *          `\{id\}` substring with the actual token type ID. For more info
      *          visit:
      *          https://eips.ethereum.org/EIPS/eip-1155#metadata[defined in the EIP].
-     * @param   _lotto The address of the lotto contract. The lotto contract has
+     * @param   _lotto The addresses of the lotto contract. The lotto contract has
      *          elevated permissions on this contract. 
      */
     constructor(
